@@ -19,7 +19,7 @@ Project is created with:
 IDE: Intellij IDEA 2020
 
 ## Setup
-To run this project, you need to have `jdk`, `jre` and `maven` installed.
+To run this project, you need to have `jre` and `maven` installed.
 Download the project folder and open it in a `command prompt` or `terminal`.  
 Type `mvn spring-boot:run` and press enter to start the application on localhost:8080.  
 
