@@ -27,7 +27,7 @@ var app = angular.module("Search", ['ui.bootstrap']).controller("SearchControlle
             'quantity': "quantity"
         };
         $scope.cancelCart;
-        $scope.search = function() {
+        $scope.search = function () {
             var choice = $scope.books;
             $scope.searchBook = false;
             $scope.addBookFlag = false;
@@ -43,8 +43,7 @@ var app = angular.module("Search", ['ui.bootstrap']).controller("SearchControlle
             if (choice == 'getBooks') {
                 $scope.searchBook = true;
                 var url = 'http://localhost:8080/api/' + choice;
-                $http.get(url).
-                then(function(response) {
+                $http.get(url).then(function (response) {
                     $scope.output = response.data;
                     pagination();
                 });
@@ -71,9 +70,10 @@ var app = angular.module("Search", ['ui.bootstrap']).controller("SearchControlle
             } else {
                 $scope.searchBook = true;
                 var url = 'http://localhost:8080/api/' + choice;
-                $http.get(url).
-                then(function(response) {
+                $http.get(url).then(function (response) {
                     $scope.output = response.data;
                 });
             }
         }
+    }
+)
