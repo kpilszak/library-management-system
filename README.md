@@ -15,6 +15,9 @@ Project is created with:
 * Spring Boot 2.3.4.  
 * MySQL
 * Maven  
+* AngularJS v1.2.32  
+* jQuery  
+* Bootstrap
 IDE: Intellij IDEA 2020
 
 ## Sources
