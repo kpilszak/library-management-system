@@ -7,7 +7,7 @@
 
 ## General info
 This project is a Spring application.  
-The main purpose is to create library management system.       
+The main purpose is to create a library management system.       
 
 ## Technologies
 Project is created with:
