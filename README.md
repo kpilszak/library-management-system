@@ -1,4 +1,4 @@
-<h1 align="right">Work In Progress: Library Management System</h1><br>
+<h1 align="right">Library Management System</h1><br>
 
 ## Table of contents
 * [General info](#general-info)
